@@ -1,8 +1,18 @@
 import React from 'react'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>CV</li>
+                <li>Work</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
   )
 }
 
