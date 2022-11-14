@@ -11,10 +11,9 @@ const Work = () => {
             <p className='text-4xl font-bold inline border-b-4 text-gray border-gray-600'>Work</p>
           </div>
 
-          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
             
-            <div style={{backgroundImage: `url(${NBC})`}} className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto work-card'>
-
+            <div style={{backgroundImage: `url(${NBC})`}} className='shadow-lg shadow-black group container flex justify-center items-center mx-auto work-card'>
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                 Neon Beach
@@ -26,8 +25,8 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div style={{backgroundImage: `url(${TML})`}} className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto work-card'>
 
+            <div style={{backgroundImage: `url(${TML})`}} className='shadow-lg shadow-black group container flex justify-center items-center mx-auto work-card'>
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                 T.M.Lewin
@@ -39,8 +38,8 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div style={{backgroundImage: `url(${FDM})`}} className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto work-card'>
 
+            <div style={{backgroundImage: `url(${FDM})`}} className='shadow-lg shadow-black group container flex justify-center items-center mx-auto work-card'>
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                 14 Day Manicure
@@ -52,6 +51,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
     </div>
