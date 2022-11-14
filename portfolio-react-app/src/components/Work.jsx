@@ -9,6 +9,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray border-gray-600'>Work</p>
+            <p className='py-6'>A selected few ecommerce websites I helped build.</p>
           </div>
 
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
@@ -53,6 +54,8 @@ const Work = () => {
             </div>
 
           </div>
+          <p className='py-6'>Some info about the sites</p>
+          <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse hic quisquam facilis ex, aperiam consequatur! Ullam veritatis, accusamus possimus sit, deserunt ut, perspiciatis nisi quo mollitia voluptatem quaerat sint!</p>
         </div>
     </div>
   )
