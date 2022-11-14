@@ -8,3 +8,14 @@
         @apply cursor-pointer;
     }
 }
+
+.work-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.work-card:hover {
+    background-image: radial-gradient(circle, #000000, #0e0e0e, #171818, #1f2020, #272828, #262a2b, #262c2f, #272d33, #1f2832, #182331, #111e30, #0a192f)!important;
+}
