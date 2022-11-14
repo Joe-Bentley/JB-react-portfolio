@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @layer base {
+
+    body {
+        @apply font-[Poppins];
+    }
+    
     li {
         @apply px-2;
         @apply cursor-pointer;
