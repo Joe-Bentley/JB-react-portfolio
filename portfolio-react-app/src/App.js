@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Footer from "./components/Footer"
+import Skills from "./components/Skills";
 import { Link } from "react-scroll";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import Logo_White from './assets/Logo_White.png';
@@ -51,6 +52,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Skills />
         <Work />
         <Contact />
         <Footer />
