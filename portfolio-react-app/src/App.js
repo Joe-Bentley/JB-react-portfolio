@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import Footer from "./components/Footer"
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <div className="bg-white dark:bg-slate-900 min-h-screen font-inter ">
+      <div className="bg-white dark:bg-[#1C1C1C] min-h-screen font-inter ">
         <button
           type="button"
           onClick={handleThemeSwitch}
@@ -44,6 +45,7 @@ function App() {
         <About />
         <Work />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
