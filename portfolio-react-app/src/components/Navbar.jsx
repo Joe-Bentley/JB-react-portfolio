@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Spin as Hamburger } from "hamburger-react";
-// import {FaBars, FaTimes} from 'react-icons/fa'
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,8 +13,8 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white">
-      <div>{/* Logo */}</div>
+    <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white">
+      
 
       <ul className="hidden md:flex">
         <li>

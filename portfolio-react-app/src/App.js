@@ -5,7 +5,10 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Footer from "./components/Footer"
+import { Link } from "react-scroll";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
+import Logo_White from './assets/Logo_White.png';
+import Logo_Black from './assets/Logo_Black.png';
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -33,10 +36,15 @@ function App() {
   return (
     <div>
       <div className="bg-white dark:bg-[#1C1C1C] min-h-screen font-inter ">
+        <div className="w-[150px] fixed z-10 top-[-25px] left-[-25px]">
+        <Link to="home" className="hover:cursor-pointer" smooth={true} duration={500}>
+          {theme === 'dark' ? <img src={Logo_Black} alt="Initials Logo" /> : <img src={Logo_White} alt="Initials Logo" />}
+        </Link>  
+        </div>
         <button
           type="button"
           onClick={handleThemeSwitch}
-          className="fixed z-10 left-[50%] top-[2%]"
+          className="fixed z-10 left-[50%] top-[29px]"
         >
           <WiMoonAltFirstQuarter className="text-2xl mr-2 mb-1 text-black dark:text-white" />
         </button>
