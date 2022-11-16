@@ -8,8 +8,7 @@ import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
 import liquid from '../assets/liquid.png';
 import tailwind from '../assets/tailwind.png';
-import shopify from '../assets/shopify.png';
-import shopify1 from '../assets/shop1.png';
+import shopify from '../assets/shop1.png';
 
 const Skills = () => {
 const settings = {
@@ -45,7 +44,7 @@ const settings = {
             <img src={tailwind} className="w-[80px] skill-icon" alt="Tailwind logo" />
           </div>
           <div>
-            <img src={shopify1} className="w-[80px] skill-icon" alt="Shopify logo" />
+            <img src={shopify} className="w-[80px] skill-icon" alt="Shopify logo" />
           </div>
           <div>
             <img src={liquid} className="w-[80px] skill-icon" alt="Liquid logo" />
