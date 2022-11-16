@@ -18,7 +18,7 @@ const Footer = () => {
         />
         <Social />
         <p className="pb-4 md:pb-0">
-          Copyright &copy; 2022 Joe-Bentley | <span className="hover:underline">
+           &copy; 2022 Joe-Bentley | <span className="hover:underline">
             <a href="https://github.com/Joe-Bentley">Github</a>
           </span>
         </p>
