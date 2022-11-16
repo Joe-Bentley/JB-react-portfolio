@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import Tabs from "./components/Tabs";
 import { Link } from "react-scroll";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import AOS from "aos";
@@ -81,6 +82,13 @@ function App() {
           data-aos-easing="ease-in-sine"
         >
           <About />
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <Tabs />
         </div>
 
         <Skills />
