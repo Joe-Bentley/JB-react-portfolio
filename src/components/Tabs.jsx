@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Profile from "../assets/jb-profile.jpg";
 
 const Tabs = () => {
-  const [openTab, setOpenTab] = React.useState(1);
+  const [openTab, setOpenTab] = useState(1);
   return (
     <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
       <img
