@@ -18,25 +18,25 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" className="hover:underline" smooth={true} duration={500}>
+          <Link to="home" className="hover:font-bold" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" className="hover:underline" smooth={true} duration={500}>
+          <Link to="about" className="hover:font-bold" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <a href="/">CV</a>
+          <a className="hover:font-bold" href="/">CV</a>
         </li>
         <li>
-          <Link to="work" className="hover:underline" smooth={true} duration={500}>
+          <Link to="work" className="hover:font-bold" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact"className="hover:underline"  smooth={true} duration={500}>
+          <Link to="contact"className="hover:font-bold"  smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -52,28 +52,28 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-4xl hover:font-bold">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-4xl hover:font-bold">
           <a target="_blank" href="www.google.com">
             CV
           </a>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>

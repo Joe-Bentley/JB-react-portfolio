@@ -61,7 +61,7 @@ function App() {
         <button
           type="button"
           onClick={handleThemeSwitch}
-          className="fixed z-10 left-[50%] top-[29px]"
+          className="fixed z-10 left-[50%] top-[29px] hover:font-bold"
         >
         <WiMoonAltFirstQuarter className="text-2xl mr-2 mb-1 text-black dark:text-white" />
         </button>
@@ -90,9 +90,9 @@ function App() {
         >
           <Tabs />
         </div>
-
-        <Skills />
-
+        <div className="my-4 sm:my-10">
+          <Skills />
+        </div>
         <div
           data-aos="fade-right"
           data-aos-offset="250"
