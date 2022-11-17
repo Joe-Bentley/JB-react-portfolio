@@ -4,19 +4,20 @@ import Profile from "../assets/jb-profile.jpg";
 const Tabs = () => {
   const [openTab, setOpenTab] = useState(1);
   return (
-    <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+    <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full px-4">
+      <div className="grid sm:grid-cols-2 gap-4 mx-2 items-center justify-center">
       <img
-        className="mt:w-[500px] shadow-lg shadow-black"
+        className="w-[400px] h-auto shadow-lg shadow-black"
         src={Profile}
         alt="Profile Pic"
       />
-      <div className="flex flex-nowrap">
-        <div className="w-full">
+      <div className="">
+        <div>
           <ul
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row dark:text-gray-300"
             role="tablist"
           >
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:border-[#FF0000] hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {
@@ -30,7 +31,7 @@ const Tabs = () => {
                 Profile
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:border-[#FF0000] hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {
@@ -44,7 +45,7 @@ const Tabs = () => {
                 Experience
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 last:mt-1 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
+            <li className="-mb-px mr-2 last:mr-0 last:mt-1 flex-auto text-center border-b-4 focus-within:border-[#FF0000] hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {
@@ -108,6 +109,7 @@ const Tabs = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
