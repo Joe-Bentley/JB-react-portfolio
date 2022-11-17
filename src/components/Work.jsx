@@ -15,7 +15,7 @@ const Work = () => {
     >
       <div className="flex items-center">
         <div className="container px-5 py-24 mx-auto">
-          <div className="mb-12">
+          <div className="mb-12 sm:text-center">
             <p className="text-4xl font-bold inline border-b-4 text-gray border-gray-600">
               Work
             </p>
