@@ -16,7 +16,7 @@ const Tabs = () => {
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row dark:text-gray-300"
             role="tablist"
           >
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-black">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {
@@ -30,7 +30,7 @@ const Tabs = () => {
                 Profile
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-black">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {
@@ -44,7 +44,7 @@ const Tabs = () => {
                 Experience
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 last:mt-1 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-black">
+            <li className="-mb-px mr-2 last:mr-0 last:mt-1 flex-auto text-center border-b-4 focus-within:bg-[#FF0000] focus-within:text-white hover:border-[#FF0000]">
               <a
                 className="text-1xl uppercase px-5 py-3 block leading-normal"
                 onClick={(e) => {

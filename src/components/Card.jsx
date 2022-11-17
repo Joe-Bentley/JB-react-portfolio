@@ -15,7 +15,7 @@ const Card = (props) => {
           <p className="text-sm">{props.secondary_description}</p>
           <div className="pt-6">
             <a href={props.link}>
-              <button className="border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF0000] hover:text-white">
+              <button className="border-2 border-gray-400 dark:border-white px-6 py-3 my-2 flex items-center hover:bg-[#FF0000] hover:text-white">
                 {props.btn_text}
               </button>
             </a>

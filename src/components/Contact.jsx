@@ -6,8 +6,8 @@ const Contact = () => {
     <div name='contact' className='w-full h-screen bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-gray-300 flex justify-center items-center p-4'>
       <form method="POST" action="https://getform.io/f/52b92735-f00e-4e17-9383-61bc03185c0e" className='flex flex-col max-w-[600px] w-full'>
           <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
-            <p className='py-4'>Drop me a message</p>
+            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Let's connect!</p>
+            <p className='py-4'></p>
           </div>
           <input className='p-2 placeholder:text-black dark:placeholder:text-white text-black dark:text-white dark:bg-transparent border-b-[3px]' type="text" placeholder='Name' name='name' />
           <input className='my-4 p-2 placeholder:text-black dark:placeholder:text-white text-black dark:text-white dark:bg-transparent border-b-[3px]' type="email" placeholder='Email' name='email' />
