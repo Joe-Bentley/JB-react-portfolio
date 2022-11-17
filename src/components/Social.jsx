@@ -5,7 +5,7 @@ const Social = () => {
   return (
     <div name="social">
       <div>
-        <ul className="w-full h-[200px] flex justify-evenly items-center text-3xl gap-10 py-3">
+        <ul className="w-full h-[200px] flex flex-wrap justify-evenly items-center text-3xl gap-10 py-3">
           <li className="duration-500 hover:sacle-50 hover:translate-y-[-15px]">
             <a href="https://github.com/Joe-Bentley">
               <FaGithub />

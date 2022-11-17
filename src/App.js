@@ -102,7 +102,7 @@ function App() {
         </div>
 
         <div
-          data-aos="fade-up"
+          data-aos="fade-down"
           data-aos-offset="250"
           data-aos-easing="ease-in-sine"
         >
