@@ -6,7 +6,7 @@ const Tabs = () => {
   return (
     <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
       <img
-        className="mt:w-[500px] shadow-lg shadow-black dark:shadow-gray-500"
+        className="mt:w-[500px] shadow-lg shadow-black"
         src={Profile}
         alt="Profile Pic"
       />
@@ -59,7 +59,7 @@ const Tabs = () => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words dark:text-gray-300 w-full h-[400px] my-6 shadow-lg">
+          <div className="relative flex flex-col min-w-0 break-words dark:text-gray-300 w-full h-[400px] my-6 shadow-lg dark:shadow-black">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
