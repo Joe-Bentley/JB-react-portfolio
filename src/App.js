@@ -15,6 +15,11 @@ import Logo_White from "./assets/Logo_White.png";
 import Logo_Black from "./assets/Logo_Black.png";
 
 function App() {
+
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {

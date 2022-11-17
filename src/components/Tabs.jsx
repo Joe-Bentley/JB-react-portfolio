@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Profile from "../assets/jb-profile.jpg";
+import Profile_No_Bg from '../assets/jb-profile-color-nobg.png'
 
 const Tabs = () => {
   const [openTab, setOpenTab] = useState(1);
@@ -7,9 +7,10 @@ const Tabs = () => {
     <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full px-4">
       <div className="grid sm:grid-cols-2 gap-3 mx-2 items-center justify-center">
       <img
-        className="shadow-lg shadow-black"
-        src={Profile}
+        className="drop-shadow-sm shadow-red"
+        src={Profile_No_Bg}
         alt="Profile Pic"
+        oncontextmenu="return false;"
       />
       <div className="">
         <div>
