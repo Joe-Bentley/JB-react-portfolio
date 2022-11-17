@@ -5,9 +5,9 @@ const Tabs = () => {
   const [openTab, setOpenTab] = useState(1);
   return (
     <div className="mx-auto p-4 md:h-auto py-2 max-w-[1000px] w-full px-4">
-      <div className="grid sm:grid-cols-2 gap-4 mx-2 items-center justify-center">
+      <div className="grid sm:grid-cols-2 gap-3 mx-2 items-center justify-center">
       <img
-        className="w-[400px] h-auto shadow-lg shadow-black"
+        className="shadow-lg shadow-black"
         src={Profile}
         alt="Profile Pic"
       />
@@ -60,11 +60,11 @@ const Tabs = () => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words dark:text-gray-300 w-full h-[400px] my-6 shadow-lg dark:shadow-black">
-            <div className="px-4 py-5 flex-auto">
+          <div className="flex flex-col min-w-0 break-words dark:text-gray-300 w-full sm:h-[450px] my-6 shadow-lg dark:shadow-black">
+            <div className="px-4 py-5 flex-auto overflow-y-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <p>
+                  <p className="p-2 text-base">
                     1. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Soluta pariatur, maxime quae eum vero id incidunt molestiae
                     rerum optio culpa quasi, provident tempore, sed dolorum.
@@ -78,7 +78,7 @@ const Tabs = () => {
                   </p>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <p>
+                  <p className="p-2 text-base">
                     2. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Soluta pariatur, maxime quae eum vero id incidunt molestiae
                     rerum optio culpa quasi, provident tempore, sed dolorum.
@@ -92,7 +92,7 @@ const Tabs = () => {
                   </p>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                  <p>
+                  <p className="p-2 text-base">
                     3. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Soluta pariatur, maxime quae eum vero id incidunt molestiae
                     rerum optio culpa quasi, provident tempore, sed dolorum.
