@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import NBC from "../assets/NBC.png";
 import TML from "../assets/TML.png";
-import FDM from "../assets/14DM.png";
+import FDM from "../assets/14DM1.png";
 import MM from "../assets/MM.jpg";
 import Totem from "../assets/python.jpg";
 import Mern from "../assets/mern.jpg";
@@ -25,10 +25,8 @@ const Work = () => {
               img={NBC}
               year="2022"
               title="Neon Beach"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aperiam modi, expedita quos doloremque autem ipsum itaque
-              incidunt ipsam reprehenderit fuga! Dolores quisquam eius cum
-              accusamus?"
+              description="Built with Shopify Plus, JavaScript and Liquid, this ecommerce site was one of the first websites I helped to debug, maintain and replicate and rebuild across different countries."
+              secondary_description="Neon Beach is an online retailer that specialises in building custom and niche LED Neon signs."
               link="https://neonbeach.com"
               btn_text="View Website"
             />
@@ -36,10 +34,8 @@ const Work = () => {
               img={FDM}
               year="2022"
               title="14 day manicure"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aperiam modi, expedita quos doloremque autem ipsum itaque
-              incidunt ipsam reprehenderit fuga! Dolores quisquam eius cum
-              accusamus?"
+              description="The most recent ecommerce site I worked on, this was a rebuild of an existing site. We used Shopify, Liquid and Dawn 6.0 to replicate the clients existing site. Using JSON and Liquid, to create custom sections and reusable components, utilising Shopify 2.0 features."
+              secondary_description="14 Day Manicure is an online nail polish retailer, based in Ireland with an IE and UK website."
               link="https://14daymanicure.com/"
               btn_text="View Website"
             />
@@ -47,10 +43,8 @@ const Work = () => {
               img={TML}
               year="2022"
               title="T.M.LEWIN"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aperiam modi, expedita quos doloremque autem ipsum itaque
-              incidunt ipsam reprehenderit fuga! Dolores quisquam eius cum
-              accusamus?"
+              description="T.M.Lewin is a successful British online menswear retailer. Working on this ecommerce site was a pleasure, where I learnt a lot in terms of agile methodologies and client based work. Using Shopify 2.0+ and primarily Liquid, with bespoke features and custom components to structure the build."
+              secondary_description="Working on this project, I used Ruby to help create custom scripts. I also worked with API's and custom apps to assit with integrations."
               link="https://tmlewin.co.uk/"
               btn_text="View Website"
             />
