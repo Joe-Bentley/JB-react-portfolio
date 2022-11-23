@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Spin as Hamburger } from "hamburger-react";
+import PDF from '../assets/Joe-Bentley-CV-2022.pdf'
 
 
 const Navbar = () => {
 
   const [isOpen, setOpen] = useState(false);
-  
+
   const handleClick = () => {
     setOpen(!isOpen);
   };
@@ -27,7 +28,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a className="hover:font-bold" href="/">CV</a>
+          <a className="hover:font-bold " target='_blank' rel="noreferrer" href={PDF}>CV</a>
         </li>
         <li>
           <Link to="work" className="hover:font-bold" smooth={true} duration={500}>
@@ -63,7 +64,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl hover:font-bold">
-          <a target="_blank" href="www.google.com">
+          <a target='_blank' rel="noreferrer" href={PDF}>
             CV
           </a>
         </li>
