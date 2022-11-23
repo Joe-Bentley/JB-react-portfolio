@@ -4,13 +4,12 @@ import { Spin as Hamburger } from "hamburger-react";
 
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => {
-    setNav(!nav);
-  };
-
 
   const [isOpen, setOpen] = useState(false);
+  
+  const handleClick = () => {
+    setOpen(!isOpen);
+  };
 
   return (
     <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white z-[9]">
@@ -47,7 +46,7 @@ const Navbar = () => {
       </div>
       <ul
         className={
-          !nav
+          !isOpen
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white flex flex-col justify-center items-center"
         }
