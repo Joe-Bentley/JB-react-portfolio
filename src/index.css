@@ -50,7 +50,7 @@
         }
     }
 }
-@media screen and (min-width: 310px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .type {
         border-right: solid 2px slategrey;
         width: 0;
