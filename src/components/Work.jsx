@@ -23,6 +23,7 @@ const Work = () => {
           <div className="flex flex-wrap -m-4">
             <Card
               img={NBC}
+              alt="Neon beach landing page"
               year="2022"
               title="Neon Beach"
               description="Built with Shopify Plus, JavaScript and Liquid, this ecommerce site was one of the first websites I helped to debug, maintain and replicate and rebuild across different countries."
@@ -32,6 +33,7 @@ const Work = () => {
             />
             <Card
               img={FDM}
+              alt="14 Day Manicure landing page"
               year="2022"
               title="14 day manicure"
               description="The most recent ecommerce site I worked on, this was a rebuild of an existing site. We used Shopify, Liquid and Dawn 6.0 to replicate the clients existing site. Using JSON and Liquid, to create custom sections and reusable components, utilising Shopify 2.0 features."
@@ -41,6 +43,7 @@ const Work = () => {
             />
             <Card
               img={TML}
+              alt="TM Lewin landing page"
               year="2022"
               title="T.M.LEWIN"
               description="T.M.Lewin is a successful British online menswear retailer. Working on this ecommerce site was a pleasure, where I learnt a lot in terms of agile methodologies and client based work. Using Shopify 2.0+ and primarily Liquid, with bespoke features and custom components to structure the build."
@@ -50,6 +53,7 @@ const Work = () => {
             />
             <Card
               img={MM}
+              alt="Musical Masterminds project landing page"
               year="2020"
               title="Musical Masterminds"
               description="Musical Masterminds was a student built project app which
@@ -66,6 +70,7 @@ const Work = () => {
             />
             <Card
               img={Totem}
+              alt="Artifacts project landing page"
               year="2020"
               title="Totems"
               description="The goal of this project was to use Python, Html, CSS, and
@@ -81,6 +86,7 @@ const Work = () => {
             />
             <Card
               img={Mern}
+              alt="Video Game Review landing page"
               year="2020"
               title="Video Game Review"
               description="Our first MERN (Mongo, Express, React, Node) app which is a video game review app for uninformed parents, including some of the recent featured and popular games at the time."
