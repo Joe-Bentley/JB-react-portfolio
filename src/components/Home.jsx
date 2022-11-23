@@ -11,7 +11,7 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-slate-600'></p>
         <h1 className='text-4xl sm:text-7xl font-bold'>Joe Bentley</h1>
-        <h2 className='text-3xl mt-4 sm:text-6xl font-bold text-[#FF0000] dark:text-slate-500 type'>Junior Developer</h2>
+        <h2 className='text-3xl mt-4 sm:text-5xl font-bold text-[#FF0000] dark:text-slate-500 type'>Junior Developer</h2>
         <p className='text-[#1C1C1C] dark:text-gray-300 py-4 max-w-[700px]'>Welcome to my Portfolio. Built with React JS and Tailwind, this portfolio showcases some of my recent work and personal projects. Please take a look around and feel free to contact me for more info!</p>
         <div>
           <ul className='sm:text-2xl flex flex-row py-4 gap-2'>

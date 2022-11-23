@@ -25,14 +25,14 @@
         white-space: nowrap;
         letter-spacing: 0.1em;
         animation:
-            type 4s steps(32) 1s 2 forwards,
+            type 4s steps(40) 1s 2 forwards,
             blink 0.75s steps(1) infinite;
     }
 
 
     @keyframes type {
         to {
-            width: 16ch;
+            width: 16.5ch;
         }
     }
 
