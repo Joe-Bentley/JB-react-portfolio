@@ -50,7 +50,7 @@
         }
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 390px) and (max-width: 768px) {
     .type {
         border-right: solid 2px slategrey;
         width: 0;
@@ -65,7 +65,7 @@
 
     @keyframes type {
         to {
-            width: 15ch;
+            width: 16ch;
         }
     }
 
