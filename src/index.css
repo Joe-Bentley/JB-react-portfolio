@@ -83,6 +83,40 @@
         }
     }
 }
+@media screen and (max-width: 389px) {
+    .type {
+        border-right: solid 2px slategrey;
+        width: 0;
+        font-size: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+        letter-spacing: 0.09em;
+        animation:
+            type 4s steps(20) 1s 2 forwards,
+            blink 0.75s steps(1) infinite;
+    }
+
+
+    @keyframes type {
+        to {
+            width: 16.5ch;
+        }
+    }
+
+    @keyframes blink {
+        from {
+            border-color: transparent;
+        }
+
+        50% {
+            border-color: slategrey;
+        }
+
+        to {
+            border-color: transparent;
+        }
+    }
+}
 
 .footer-bg {
     background-repeat: no-repeat;
