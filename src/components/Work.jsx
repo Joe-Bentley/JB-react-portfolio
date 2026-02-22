@@ -5,7 +5,6 @@ import Skin111 from "../assets/11skin.png";
 import Cambridge from "../assets/Cambridge.png";
 import Sunnamusk from "../assets/Sunnamusk.png";
 import EOB from "../assets/EOB.png";
-import Fudi from "../assets/fudi.png";
 import MucOff from "../assets/Muc-off.png";
 import NBC from "../assets/NBC.png";
 import TML from "../assets/TML.png";
@@ -23,7 +22,7 @@ const Work = () => {
               Work
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 justify-center">
             <Card
               img={BOC}
               alt="Bands of Courage landing page"
@@ -72,16 +71,6 @@ const Work = () => {
               description="Created a bespoke account page experience replicating Figma designs and requirements, integrated with a loyalty partner for a seamless customer journey."
               secondary_description="Delivered pixel-perfect implementation with third-party loyalty integration."
               link="https://embassyofbeauty.co.uk/"
-              btn_text="View Website"
-            />
-            <Card
-              img={Fudi}
-              alt="Fu:di homepage"
-              year="2024"
-              title="Fu:di"
-              description="Delivered a redesigned homepage improving layout, usability, and site performance. Enhanced navigation, hero sections, and content structure for better conversion."
-              secondary_description="Optimised for Core Web Vitals and mobile-first responsiveness."
-              link="https://fudi.com"
               btn_text="View Website"
             />
             <Card

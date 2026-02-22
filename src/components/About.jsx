@@ -19,7 +19,7 @@ const About = () => {
             <p>Hi, I'm Joe 👋</p>
             <br />
             <p>
-              A passionate Mid-Level Shopify Developer and former professional dancer
+              A passionate Mid-Level Shopify Developer
             </p>
           </div>
           <div>
@@ -27,7 +27,7 @@ const About = () => {
             I’m a Mid-Level Shopify Developer specialising in bespoke theme development and scalable ecommerce solutions. Over the past four years, I’ve worked with agencies and growing brands to build high-performance Shopify experiences focused on usability, speed, and conversion.
             <br />
             <br />
-            Before becoming a developer, I was a cruise ship performer and dance captain — a career that taught me leadership, adaptability, and how to perform when it’s time to deliver.
+            Before becoming a Developer, I was a cruise ship performer and dance captain, a career that taught me leadership, adaptability, and how to perform when it’s time to deliver.
             </p>
           </div>
         </div>

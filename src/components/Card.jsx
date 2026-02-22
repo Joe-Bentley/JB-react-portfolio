@@ -2,13 +2,13 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="p-4 sm:w-1/2 lg:w-1/3 flex">
+    <div className="flex p-4 w-full sm:w-1/2 lg:w-1/3">
       <div className="h-full flex flex-col shadow-md hover:shadow-lg dark:shadow-black overflow-hidden md:hover:scale-[1.02] transition duration-300 ease-in">
         <img className="h-auto sm:h-[280px] w-full" src={props.img} loading="lazy" alt={props.alt}/>
-        <div className="p-6 flex flex-col flex-1">
-          <h1 className="text-2xl font-semibold uppercase mb-3">
+        <div className="flex flex-col flex-1 p-6">
+          <h2 className="mb-3 text-2xl font-semibold tracking-wider uppercase">
             {props.title}
-          </h1>
+          </h2>
           <p className="text-sm">{props.description}</p>
           <br />
           <p className="text-sm">{props.secondary_description}</p>
