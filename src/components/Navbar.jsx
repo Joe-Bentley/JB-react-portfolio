@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Spin as Hamburger } from "hamburger-react";
-import PDF from '../assets/Joe-Bentley-CV-2022.pdf'
+import PDF from '../assets/Joe-Bentley-CV-2026.pdf';
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white z-[9]">
+    <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white z-[9] shadow-sm">
       
 
       <ul className="hidden md:flex">
@@ -28,7 +28,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a className="hover:font-bold " target='_blank' rel="noreferrer" href={PDF}>CV</a>
+          <a className="hover:font-bold" target='_blank' rel="noreferrer" href={PDF}>CV</a>
         </li>
         <li>
           <Link to="work" className="hover:font-bold" smooth={true} duration={500}>
@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="z-10 md:hidden">
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
       <ul
