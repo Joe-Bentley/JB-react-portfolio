@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import About from "./components/About";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
@@ -22,6 +22,13 @@ function App() {
 
   const [theme, setTheme] = useState(null);
 
+  const gradientRef = useRef(null);
+  const themeRef = useRef(theme);
+  const targetX = useRef(50);
+  const targetY = useRef(50);
+  const currentX = useRef(50);
+  const currentY = useRef(50);
+
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
@@ -43,12 +50,50 @@ function App() {
   }, [theme]);
 
   useEffect(() => {
+    themeRef.current = theme;
+  }, [theme]);
+
+  useEffect(() => {
+    const lerp = (a, b, t) => a + (b - a) * t;
+    let rafId;
+
+    const animate = () => {
+      currentX.current = lerp(currentX.current, targetX.current, 0.06);
+      currentY.current = lerp(currentY.current, targetY.current, 0.06);
+
+      if (gradientRef.current) {
+        const isDark = themeRef.current === "dark";
+        const hue = 190 + (currentX.current / 100) * 160; // teal → blue → indigo → purple → rose
+        const opacity = isDark ? 0.13 : 0.06;
+        const color = `hsla(${hue}, 70%, 60%, ${opacity})`;
+        gradientRef.current.style.background = `radial-gradient(circle at ${currentX.current}% ${currentY.current}%, ${color}, transparent 60%)`;
+      }
+
+      rafId = requestAnimationFrame(animate);
+    };
+
+    const handleMouseMove = (e) => {
+      targetX.current = (e.clientX / window.innerWidth) * 100;
+      targetY.current = (e.clientY / window.innerHeight) * 100;
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+    rafId = requestAnimationFrame(animate);
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      cancelAnimationFrame(rafId);
+    };
+  }, []);
+
+  useEffect(() => {
     AOS.init();
   }, []);
 
   return (
     <div>
       <div className="bg-white dark:bg-[#1C1C1C] min-h-screen font-inter ">
+        <div ref={gradientRef} className="fixed inset-0 pointer-events-none z-0" />
         <div className="w-[150px] fixed z-10 top-[-25px] left-[-25px]">
           <Link
             to="home"

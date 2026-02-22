@@ -6,7 +6,7 @@ import { ImPhone, ImMail2 } from "react-icons/im";
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen
-    bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-gray-300'>
+    text-[#1C1C1C] dark:text-gray-300'>
 
       <div className='max-w-[1000px] mx-auto my-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-slate-600'></p>

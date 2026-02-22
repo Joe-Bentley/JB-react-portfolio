@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white z-[9] shadow-sm">
+    <div className="fixed w-full h-[80px] flex flex-row-reverse justify-between items-center px-4 bg-white/70 backdrop-blur-md text-[#1C1C1C] dark:bg-[#1C1C1C]/70 dark:text-white z-[9]">
       
 
       <ul className="hidden md:flex">
@@ -49,7 +49,7 @@ const Navbar = () => {
         className={
           !isOpen
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-white text-[#1C1C1C] dark:bg-[#1C1C1C] dark:text-white flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-white/90 backdrop-blur-md text-[#1C1C1C] dark:bg-[#1C1C1C]/90 dark:text-white flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl hover:font-bold">
