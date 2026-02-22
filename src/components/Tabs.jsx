@@ -60,7 +60,7 @@ const Tabs = () => {
                   <div className="space-y-4 text-base leading-relaxed">
                     <p>I'm a Mid-Level Shopify Developer at Charle, a leading Shopify agency, with 4 years of commercial experience delivering bespoke, high-performance ecommerce solutions.</p>
                     <p>I specialise in custom Shopify theme development, scalable architecture, and performance optimisation. My work spans fully bespoke builds, complex feature development, and conversion-focused enhancements for growing brands.</p>
-                    <p>Prior to joining Charle, I gained agency and in-house ecommerce experience delivering international rollouts, rebuilds, and high-stakes launches. Today, I combine strong technical expertise with client-facing communication and leadership experience to deliver reliable, scalable Shopify solutions.</p>
+                    <p>My journey into development began with an online, remote bootcamp at Code Nation, which gave me the foundation to pursue a career in software development. <br /> <br /> Prior to joining Charle, I gained agency and in-house ecommerce experience delivering international rollouts, rebuilds, and high-stakes launches. Today, I combine strong technical expertise with client-facing communication and leadership experience to deliver reliable, scalable Shopify solutions.</p>
                     <p>For more information, please see my <a className="underline" target="_blank" rel="noreferrer" href={PDF}>CV</a> or get in touch via the contact form below.</p>
                   </div>
                 </div>
