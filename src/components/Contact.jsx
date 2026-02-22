@@ -17,7 +17,7 @@ const Contact = () => {
           <button className='border-2 border-gray-500 px-4 py-3 my-8 flex items-center hover:bg-[#FF0000] hover:text-white'>Submit <HiArrowNarrowRight className='ml-3'/>
           </button>
 
-          <p className='text-[#1C1C1C] dark:text-gray-300 py-4 max-w-[700px]'>Or reach out via email at <a className='underline transition-opacity duration-300 hover:opacity-70 underline-offset-2' href="mailto:joe.bentley.20@gmail.com">joe.bentley.20@gmail.com</a></p>
+          <p className='text-[#1C1C1C] dark:text-gray-300 py-4 max-w-[700px] sm:text-left text-center text-sm'>Or reach out via email at <a className='underline transition-opacity duration-300 hover:opacity-70 underline-offset-2' href="mailto:joe.bentley.20@gmail.com">joe.bentley.20@gmail.com</a></p>
       </form>
 
     </div>
