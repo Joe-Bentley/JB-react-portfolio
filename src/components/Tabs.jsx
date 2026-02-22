@@ -112,7 +112,8 @@ const Tabs = () => {
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript (ES6+)</li>
-                        <li>Responsive & Mobile-First Development</li>
+                        <li>JSON</li>
+                        <li>Storefront API</li>
                       </ul>
                     </section>
                     <section>

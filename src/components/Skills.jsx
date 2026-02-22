@@ -24,7 +24,7 @@ const settings = {
         autoplaySpeed: 2000
     };
   return (
-    <div className="mt-[70px] mx-auto p-4 h-auto py-2 max-w-[1000px] border-t-[0.5px] border-b-[0.5px]">
+    <div className="mt-[70px] mx-auto p-4 h-auto py-2 max-w-[1200px] border-t-[0.5px] border-b-[0.5px]">
       <div className='py-2'>
         <Slider {...settings}>
 
